@@ -1,10 +1,10 @@
 github_users:
-  - ge75xuv
+  - tunaguerbuez
 
 repo_description_lines_max: 2
 
 github_repos:
-  - ge75xuv/Multiview-Object-Segmentation-with-SAM
-  - ge75xuv/DiffusionModelsforMRI
-  - ge75xuv/lsy_drone_racing
-  - ge75xuv/semantic-reasoning-quest3
+  - tunaguerbuez/Multiview-Object-Segmentation-with-SAM
+  - tunaguerbuez/DiffusionModelsforMRI
+  - tunaguerbuez/lsy_drone_racing
+  - tunaguerbuez/semantic-reasoning-quest3

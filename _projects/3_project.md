@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-[GitHub Repository](https://github.com/ge75xuv/lsy_drone_racing)
+[GitHub Repository](https://github.com/tunaguerbuez/lsy_drone_racing)
 
 This project explores robust drone racing under uncertain dynamics by combining trajectory priors with reinforcement learning.
 The figures below summarize the approach and results.

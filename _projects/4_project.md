@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-[GitHub Repository](https://github.com/ge75xuv/Humanoid-Archery-Project-TeamB.git)
+[GitHub Repository](https://github.com/tunaguerbuez/Humanoid-Archery-Project-TeamB.git)
 
 This project is a ROS package where the NAO robot scans its field of view,
 aligns with detected targets, and shoots using a bow. Because NAO has limited
