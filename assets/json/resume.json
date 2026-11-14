@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Tuna Gürbüz",
-    "label": "Graduate Electrical & Computer Engineer",
+    "label": "PhD Student, Max Planck Institute for Intelligent Systems",
     "email": "tngrbz@gmail.com",
     "phone": "+49 17632279590",
     "location": {
-      "city": "Munich",
+      "city": "Tübingen",
       "countryCode": "DE"
     },
     "profiles": [
@@ -20,9 +20,21 @@
         "url": "https://www.linkedin.com/in/tuna-gürbüz-runtime/"
       }
     ],
-    "summary": "My research centers on 3D scene understanding and multimodal perception, with a focus on leveraging vision foundation models for learned representations enabling geometrically precise and semantically rich reasoning about the world in multi-view environments."
+    "summary": "3D and multimodal scene understanding, with a particular interest in gaze-based reasoning about human social behavior, leveraging vision foundation models for geometrically precise representations across multi-view environments."
   },
   "education": [
+    {
+      "institution": "Max Planck Institute for Intelligent Systems",
+      "location": "Tübingen, Germany",
+      "area": "3D Computer Vision and Gaze Estimation",
+      "studyType": "PhD",
+      "startDate": "2026-07",
+      "endDate": "2029-07",
+      "highlights": [
+        "Optics and Sensing Lab, DFG project WeGaze",
+        "Focus: Multi-Camera Capture Systems, Gaze Estimation, Codec Avatars, Gaze Interaction of Multiple People"
+      ]
+    },
     {
       "institution": "Technical University of Munich (TUM)",
       "location": "Munich, Germany",
@@ -35,7 +47,8 @@
         "Advanced Non-Linear Control",
         "Data-Driven Decision Making",
         "Estimation Theory",
-        "Signal & Image Processing"
+        "Signal & Image Processing",
+        "Deep Learning for Inverse Problems"
       ],
       "highlights": [
         "Master Thesis: Multiview Panoptic Operating Room Segmentation (Grade: 1.0)"
@@ -82,39 +95,39 @@
       "highlights": [
         "Investigated 3D feature lifting using NeRFs and voxel networks for panoptic segmentation.",
         "Explored vision foundation models (SAM, DINO, CLIP) for multimodal understanding.",
-        "Adapted VGGT's aggregator for spatial understanding, achieving +5% Panoptic Quality (PQ) improvement with the video model and +7% PQ improvement with the multi-view model on MM-OR and 4D-OR datasets."
+        "Adapted VGGT's aggregator for spatial understanding, achieving +5% Panoptic Quality (PQ) improvement with the video model and +7% PQ improvement with the multi-view model on the MM-OR and 4D-OR datasets."
       ]
     },
     {
       "name": "Huawei Research Center",
       "location": "Munich, Germany",
-      "position": "Intern / Working Student — Deep Learning for Communications",
+      "position": "Intern (Jul 2024 – Jan 2025) / Working Student (Feb 2025 – Oct 2025) — Deep Learning for Communications",
       "startDate": "2024-07",
-      "endDate": "2025-01",
+      "endDate": "2025-10",
       "highlights": [
         "Built an autoencoder FFN (PyTorch) with a model-based decoder for signal covariance estimation, outperforming baseline by ~+7 dB SNR.",
         "Built an automated synthetic data generation, model training and evaluation pipeline.",
-        "Trained a transformer model with unique learnable position embeddings for beamspace phase error estimation achieving similar performance as the PNPC algorithm in significantly lower time."
+        "Trained a transformer model with unique learnable position embeddings for beamspace phase error estimation which matches the baseline PNPC algorithm at a fraction of the runtime."
       ]
     },
     {
       "name": "Chair of Cognitive Systems, Technical University of Munich",
       "location": "Munich, Germany",
       "position": "Research Intern — Semantic Mapping with Quest 3 AR/VR",
-      "startDate": "2024-02",
-      "endDate": "2025-10",
+      "startDate": "2024-03",
+      "endDate": "2025-05",
       "highlights": [
-        "Developed a Unity (C#) app for 6-DoF tracking and scene mesh extraction on Quest 3.",
-        "Integrated ROS# for real-time wireless transfer to master computer for ray tracing from headset pose in the scene mesh with <10 ms latency.",
-        "Deployed Mask2Former (Detectron2) on the master computer for real-time panoptic segmentation, achieving mesh labeling at 15 Hz throughput using NVIDIA RTX3090."
+        "Developed a Unity app for 6-DoF tracking and scene mesh extraction on Quest 3.",
+        "Integrated ROS# for real-time wireless transfer for ray tracing from the headset pose in the scene mesh with under 10 ms latency.",
+        "Deployed Mask2Former for real-time panoptic segmentation, achieving 15 Hz mesh labeling throughput using NVIDIA RTX3090."
       ]
     },
     {
       "name": "Chair of Information-oriented Control, Technical University of Munich",
       "location": "Munich, Germany",
       "position": "Bachelor Thesis Researcher — Shared Control for Robotic Rehabilitation",
-      "startDate": "2024-03",
-      "endDate": "2025-05",
+      "startDate": "2022-04",
+      "endDate": "2022-09",
       "highlights": [
         "Simulated a 2-DoF robot arm's dynamics in MATLAB and designed PD + gravity compensation-based impedance controllers for position tracking.",
         "Implemented an assist-as-needed strategy adapting controller gains online based on human performance."
@@ -148,13 +161,19 @@
       "publisher": "arXiv",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2603.19920",
-      "summary": "Multiview consistent panoptic segmentation framework for operating room scene understanding."
+      "summary": "Gürbüz, T., Özsoy, E., Wang, T.D., Navab, N."
     },
     {
-      "name": "TransPNPC: Transformer-based Deep Unfolding for Phase Noise Parameter Compensation in Beamspace DOA Estimation",
-      "publisher": "SAM 2026 (Under Review)",
+      "name": "TransPNPC: Transformer-Based Deep Unfolding for Phase Noise Parameter Compensation in Beamspace DOA Estimation",
+      "publisher": "IEEE SAM 2026 (Sensor Array Processing and Multichannel Signal Processing Workshop)",
       "releaseDate": "2026",
-      "summary": "Transformer-based deep unfolding approach for phase noise compensation in beamspace DOA estimation."
+      "summary": "Wang, C., Yu, Z., Gürbüz, T., Abdelkader, A., Wu, X., Haardt, M."
+    },
+    {
+      "name": "Image-Based Eye Movement Analysis in Room-Scale Environments: Performance and Limitations of State-of-the-Art Algorithms",
+      "publisher": "European Conference on Eye Movements (ECEM 2026), Ulm, Germany (Oral presentation)",
+      "releaseDate": "2026-08",
+      "summary": "Gürbüz, T., Zhang, X., Polikovsky, S."
     }
   ],
   "skills": [
@@ -164,7 +183,17 @@
     },
     {
       "name": "Frameworks & Libraries",
-      "keywords": ["PyTorch", "PyBullet", "Gazebo", "Gymnasium", "Stable-Baselines3", "Hugging Face Transformers", "OpenCV", "OpenGL", "Eagle (Autodesk)"]
+      "keywords": [
+        "PyTorch",
+        "PyBullet",
+        "Gazebo",
+        "Gymnasium",
+        "Stable-Baselines3",
+        "Hugging Face Transformers",
+        "OpenCV",
+        "OpenGL",
+        "Eagle (Autodesk)"
+      ]
     },
     {
       "name": "Tools & Technologies",
@@ -188,7 +217,12 @@
   "interests": [
     {
       "name": "Hobbies",
-      "keywords": ["Hiking in the Alps", "Football", "Video Games (Paradox Studios)", "Arduino & ESP-32 programming"]
+      "keywords": [
+        "Hiking in the Alps",
+        "Football",
+        "Video Games (Paradox Interactive)",
+        "Arduino & ESP-32 programming"
+      ]
     }
   ]
 }
